@@ -5,7 +5,6 @@ echo "Running Django setup commands..."
 
 python manage.py makemigrations
 python manage.py migrate
-python manage.py collectstatic --noinput
 
 echo "Starting Gunicorn server..."
 
